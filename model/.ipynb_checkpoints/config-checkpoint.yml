@@ -1,0 +1,28 @@
+# 変数名: 値
+
+#######################
+# Training Parameters 
+#######################
+
+batch_size: 512
+epochs: 1000
+iteration_per_epoch: 100000
+learning_rate: 0.001
+is_eary_stopping: True
+
+######################
+# 
+######################
+
+save_path: '/work-hmcomm/project/nedo2020_yokogawa/Git/yokogawa_ryamaguchi/nedo2020-yokogawass/script/RY_module/model/test_output/'
+save_model_name: 'module_run_test.h5'
+
+######################
+# GPU Parameters
+######################
+
+device_id: 1
+
+
+hwin: 64
+vwin: 128
